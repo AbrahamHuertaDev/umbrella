@@ -1,0 +1,26 @@
+{
+    "name": "abrahamhuerta/umbrella",
+    "authors": [
+        {
+            "name": "Abraham Huerta",
+            "email": "abrahamhuertadev@gmail.com"
+        }
+    ],
+    "require": {
+        "filp/whoops": "^2.1",
+        "symfony/console": "^3.3",
+        "klein/klein": "^2.1",
+        "slim/slim": "^3.0",
+        "spatie/laravel-blade": "^1.0",
+         "illuminate/database": "*",
+        "dopesong/slim-whoops": "^2.2",
+        "symfony/var-dumper": "^3.3",
+        "nesbot/carbon": "^1.22",
+        "react/socket": "^0.8.0"
+    },
+    "autoload": {
+        "classmap": [
+            "app/commands"
+        ]
+    }
+}

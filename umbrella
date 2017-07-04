@@ -1,0 +1,19 @@
+#!/usr/bin/env php
+
+<?php
+
+define('ROOT', realpath(dirname(__FILE__)) . '/');
+define('APP', ROOT . 'app/');
+require_once ROOT . 'vendor/autoload.php';
+
+
+use Symfony\Component\Console\Application;
+
+$application = new Application('Umbrella Framework', '0.1.0');
+
+# add our commands
+$application->add(new ControllerMake());
+$application->add(new ModelMake());
+$application->add(new ViewMake());
+
+$application->run();
