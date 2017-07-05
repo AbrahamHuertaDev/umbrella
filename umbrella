@@ -2,6 +2,14 @@
 
 <?php
 
+/**
+ * Umbrella - A PHP Framework 
+ *
+ * @package  Umbrella
+ * @author   Abraham Huerta <abrahamhuertadev@gmail.com>
+ */
+
+
 define('ROOT', realpath(dirname(__FILE__)) . '/');
 define('APP', ROOT . 'app/');
 require_once ROOT . 'vendor/autoload.php';

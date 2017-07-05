@@ -11,12 +11,19 @@
         "symfony/console": "^3.3",
         "klein/klein": "^2.1",
         "slim/slim": "^3.0",
-        "spatie/laravel-blade": "^1.0",
-         "illuminate/database": "*",
+        "spatie/laravel-blade": "0.1.2",
+        "illuminate/database": "~4.2",
         "dopesong/slim-whoops": "^2.2",
         "symfony/var-dumper": "^3.3",
         "nesbot/carbon": "^1.22",
-        "react/socket": "^0.8.0"
+        "react/socket": "^0.8.0",
+        "illuminate/container": "~4.2",
+        "illuminate/events": "~4.2",
+        "illuminate/view": "~4.2",
+        "illuminate/filesystem": "~4.2",
+        "illuminate/support": "~4.2",
+        "symfony/finder": "2.5.*"
+
     },
     "autoload": {
         "classmap": [

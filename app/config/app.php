@@ -2,14 +2,14 @@
 
 \Core\App::setConfig([
 
-    'host' => 'http://localhost/applications/umbrella/',
+    'host' => 'http://localhost/viaticos',
 
     'database' => [
       'driver'    => 'mysql',
       'host'      => 'localhost',
-      'database'  => 'levering_root',
+      'database'  => 'viaticos',
       'username'  => 'root',
-      'password'  => 'root',
+      'password'  => '',
       'charset'   => 'utf8',
       'collation' => 'utf8_unicode_ci',
       'prefix'    => ''

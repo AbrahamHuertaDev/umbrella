@@ -1,13 +1,12 @@
-# Use Laravel's blade outside Laravel
-
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/spatie/laravel-blade.svg?style=flat-square)](https://packagist.org/packages/spatie/laravel-blade)
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-
 ### Installation
 The package can be installed via Composer by requiring the "50onred/laravel-blade": "1.3" package in your project's composer.json.
 
-```bash
-composer require spatie/laravel-blade
+```json
+[
+	"require": {
+	    "spatie/laravel-blade": "0.1.*"
+	}
+]
 ```
 
 ### Usage
