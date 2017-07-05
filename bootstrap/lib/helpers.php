@@ -40,6 +40,18 @@ class Helper
         self::$value = $value;
         return $obj;
     }
+    
+    public static function input($val = '')
+    {
+        if($val == '')
+        {
+            return json_decode(file_get_contents('php://input'));
+        }
+        else
+        {
+            return json_decode(file_get_contents('php://input'), true)[$val];
+        }
+    }
 
     public function post()
     {
