@@ -50,7 +50,7 @@ class RouterAddMake extends Command
             $migration = file_get_contents(APP . '/routes.php');
 
             $add = "
-Route::" . $type . "('". $route ."','". ucfirst($controller) ."Controller@". $method ."');";;
+Route::" . $type . "('/". $route ."','". ucfirst($controller) ."Controller@". $method ."');";;
 
             $migration .= $add;
 
