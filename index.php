@@ -60,6 +60,8 @@ foreach (new DirectoryIterator(ROOT . 'app/models/') as $fileInfo) {
     	require_once ROOT . 'app/models/'. $fileInfo;
 }
 
+header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept");
 
 
 require_once APP . 'routes.php';
