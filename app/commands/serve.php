@@ -8,8 +8,8 @@ use Symfony\Component\Console\Output\OutputInterface;
 
 class ServeMake extends Command
 {
-    protected $commandName = 'serve';
-    protected $commandDescription = "Greets Someone";
+    protected $commandName = 'server:start';
+    protected $commandDescription = "Standalone server";
 
     protected $commandArgumentName = "localhost:3333";
 
@@ -30,13 +30,17 @@ class ServeMake extends Command
         if ($name) {
 
             $output->writeln('Servidor umbrella corriendo en ' . $name);
-            exec('php -S ' . $name . ' index.php');
+            $output->writeln('Presiona ctrl+c para terminar la conexion');
+            //$output->writeln(getcwd() . '/vendor/bin/hyper-run');
+            exec('php -S ' . $name . ' -t ' . getcwd());
 
 
         } else {
 
             $output->writeln('Servidor umbrella corriendo en http://localhost:3333');
-            exec('php -S localhost:3333 index.php');
+            $output->writeln('Presiona ctrl+c para terminar la conexion');
+            //$output->writeln(getcwd() . '/vendor/bin/hyper-run');
+            exec('php -S localhost:3333 -t ' . getcwd());
 
         }
 

@@ -12,6 +12,7 @@
 
 define('ROOT', realpath(dirname(__FILE__)) . '/');
 define('APP', ROOT . 'app/');
+
 require_once ROOT . 'vendor/autoload.php';
 
 
@@ -23,6 +24,16 @@ $application = new Application('Umbrella Framework', '0.1.0');
 $application->add(new ControllerMake());
 $application->add(new ModelMake());
 $application->add(new ViewMake());
+$application->add(new CommandMake());
 $application->add(new ServeMake());
+
+$application->add(new DatabaseBackupMake());
+
+$application->add(new RouterAddMake());
+# your commands
+            
+            
+            
+            
 
 $application->run();

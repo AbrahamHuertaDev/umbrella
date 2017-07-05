@@ -9,7 +9,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 class ViewMake extends Command
 {
     protected $commandName = 'make:view';
-    protected $commandDescription = "Greets Someone";
+    protected $commandDescription = "Agrega nuevas vistas";
 
     protected $commandArgumentName = "name";
 

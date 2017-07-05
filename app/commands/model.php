@@ -9,7 +9,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 class ModelMake extends Command
 {
     protected $commandName = 'make:model';
-    protected $commandDescription = "Greets Someone";
+    protected $commandDescription = "Agrega nuevos modelos";
 
     protected $commandArgumentName = "name";
 

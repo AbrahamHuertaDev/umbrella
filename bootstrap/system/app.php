@@ -110,6 +110,11 @@ class App
       return $this->_method;
   }
 
+  public function parseConf()
+  {
+    return json_decode(file_get_contents(ROOT . '/config.umbrella'), true);
+  }
+
   /**
    * [getParams description]
    * @return [type] [Array]

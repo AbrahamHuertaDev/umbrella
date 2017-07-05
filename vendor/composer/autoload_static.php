@@ -220,8 +220,11 @@ class ComposerStaticInitb68ccbb5f0b0a3cacbc4968474bee6ab
     );
 
     public static $classMap = array (
+        'CommandMake' => __DIR__ . '/../..' . '/app/commands/command.php',
         'ControllerMake' => __DIR__ . '/../..' . '/app/commands/controller.php',
+        'DatabaseBackupMake' => __DIR__ . '/../..' . '/app/commands/databasebackup.php',
         'ModelMake' => __DIR__ . '/../..' . '/app/commands/model.php',
+        'RouterAddMake' => __DIR__ . '/../..' . '/app/commands/routeradd.php',
         'ServeMake' => __DIR__ . '/../..' . '/app/commands/serve.php',
         'ViewMake' => __DIR__ . '/../..' . '/app/commands/view.php',
     );

@@ -6,8 +6,11 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'CommandMake' => $baseDir . '/app/commands/command.php',
     'ControllerMake' => $baseDir . '/app/commands/controller.php',
+    'DatabaseBackupMake' => $baseDir . '/app/commands/databasebackup.php',
     'ModelMake' => $baseDir . '/app/commands/model.php',
+    'RouterAddMake' => $baseDir . '/app/commands/routeradd.php',
     'ServeMake' => $baseDir . '/app/commands/serve.php',
     'ViewMake' => $baseDir . '/app/commands/view.php',
 );

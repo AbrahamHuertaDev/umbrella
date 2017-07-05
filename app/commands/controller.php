@@ -9,7 +9,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 class ControllerMake extends Command
 {
     protected $commandName = 'make:controller';
-    protected $commandDescription = "Greets Someone";
+    protected $commandDescription = "Agrega nuevos controladores";
 
     protected $commandArgumentName = "name";
 

@@ -9,7 +9,10 @@ class Helper
 
     public static function assets($file)
     {
-        return \Core\App::config('host') . '/public/' . $file;
+        $url = str_replace('\\', '', '//'.$_SERVER['HTTP_HOST'].dirname($_SERVER['PHP_SELF']));
+        //$url = DIR;
+
+        return $url . '/public/' . $file;
     }
 
     public static function hash($val, $type = '')
@@ -23,7 +26,6 @@ class Helper
             return password_hash($val, PASSWORD_BCRYPT);
         }
     }
-
 
     public static function dump($v)
     {
