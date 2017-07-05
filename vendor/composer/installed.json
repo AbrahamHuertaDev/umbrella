@@ -1656,5 +1656,47 @@
             "orm",
             "sql"
         ]
+    },
+    {
+        "name": "philo/laravel-blade",
+        "version": "v2.1",
+        "version_normalized": "2.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/PhiloNL/Laravel-Blade.git",
+            "reference": "f3afc95c1b8a342cd973dab435f9f56ec4f1e0c6"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/PhiloNL/Laravel-Blade/zipball/f3afc95c1b8a342cd973dab435f9f56ec4f1e0c6",
+            "reference": "f3afc95c1b8a342cd973dab435f9f56ec4f1e0c6",
+            "shasum": ""
+        },
+        "require": {
+            "illuminate/view": "4.2.*"
+        },
+        "time": "2014-12-02T20:44:48+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Philo\\Blade\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Philo Hermans",
+                "email": "me@philohermans.com"
+            }
+        ],
+        "description": "Use the simple and yet powerful Laravel Blade templating engine as a standalone component.",
+        "keywords": [
+            "blade",
+            "laravel"
+        ]
     }
 ]

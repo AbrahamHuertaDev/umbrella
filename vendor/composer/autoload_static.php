@@ -45,6 +45,7 @@ class ComposerStaticInitb68ccbb5f0b0a3cacbc4968474bee6ab
             'Psr\\Log\\' => 8,
             'Psr\\Http\\Message\\' => 17,
             'Psr\\Container\\' => 14,
+            'Philo\\Blade\\' => 12,
         ),
         'K' => 
         array (
@@ -140,6 +141,10 @@ class ComposerStaticInitb68ccbb5f0b0a3cacbc4968474bee6ab
         'Psr\\Container\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/container/src',
+        ),
+        'Philo\\Blade\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/philo/laravel-blade/src',
         ),
         'Klein\\' => 
         array (

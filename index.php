@@ -1,5 +1,7 @@
 <?php
 
+session_start();
+
 /**
  * Umbrella - A PHP Framework 
  *

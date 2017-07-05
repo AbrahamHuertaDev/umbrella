@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c332ec7203631845ee6223ab89a522a6",
+    "content-hash": "a4265c19d9659da08ec12f1b37d08b1f",
     "packages": [
         {
             "name": "container-interop/container-interop",
@@ -621,6 +621,46 @@
                 "routing"
             ],
             "time": "2017-01-19T11:35:12+00:00"
+        },
+        {
+            "name": "philo/laravel-blade",
+            "version": "v2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PhiloNL/Laravel-Blade.git",
+                "reference": "f3afc95c1b8a342cd973dab435f9f56ec4f1e0c6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PhiloNL/Laravel-Blade/zipball/f3afc95c1b8a342cd973dab435f9f56ec4f1e0c6",
+                "reference": "f3afc95c1b8a342cd973dab435f9f56ec4f1e0c6",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/view": "4.2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Philo\\Blade\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Philo Hermans",
+                    "email": "me@philohermans.com"
+                }
+            ],
+            "description": "Use the simple and yet powerful Laravel Blade templating engine as a standalone component.",
+            "keywords": [
+                "blade",
+                "laravel"
+            ],
+            "time": "2014-12-02T20:44:48+00:00"
         },
         {
             "name": "pimple/pimple",

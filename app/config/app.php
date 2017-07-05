@@ -7,7 +7,7 @@
     'database' => [
       'driver'    => 'mysql',
       'host'      => 'localhost',
-      'database'  => 'viaticos',
+      'database'  => 'umbrella',
       'username'  => 'root',
       'password'  => '',
       'charset'   => 'utf8',

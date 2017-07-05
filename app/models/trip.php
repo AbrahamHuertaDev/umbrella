@@ -5,7 +5,7 @@ use  Illuminate\Database\Capsule\Manager as Capsule;
 /**
  *
  */
-class Trip
+class Trip extends Illuminate\Database\Eloquent\Model
 {
 
 	public static function connect()

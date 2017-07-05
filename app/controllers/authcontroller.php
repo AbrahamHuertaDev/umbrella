@@ -5,6 +5,6 @@ class AuthController
 {
 	public function index()
 	{
-		echo json_encode(User::all());
+		return View::make('home')->render();
 	}
 }

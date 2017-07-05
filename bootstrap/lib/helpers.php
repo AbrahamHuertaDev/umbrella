@@ -9,7 +9,27 @@ class Helper
 
     public static function assets($file)
     {
-        return \Core\App::config('host') . 'public/' . $file;
+        return \Core\App::config('host') . '/public/' . $file;
+    }
+
+    public static function hash($val, $type = '')
+    {
+        if($type !== '')
+        {
+            return password_verify($val, $type);
+        }
+        else
+        {
+            return password_hash($val, PASSWORD_BCRYPT);
+        }
+    }
+
+
+    public static function dump($v)
+    {
+        echo "<pre>";
+        var_dump($v);
+        echo "</pre>";
     }
 
     public static function request($value)
