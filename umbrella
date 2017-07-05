@@ -23,5 +23,6 @@ $application = new Application('Umbrella Framework', '0.1.0');
 $application->add(new ControllerMake());
 $application->add(new ModelMake());
 $application->add(new ViewMake());
+$application->add(new ServeMake());
 
 $application->run();

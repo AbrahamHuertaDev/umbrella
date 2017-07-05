@@ -222,6 +222,7 @@ class ComposerStaticInitb68ccbb5f0b0a3cacbc4968474bee6ab
     public static $classMap = array (
         'ControllerMake' => __DIR__ . '/../..' . '/app/commands/controller.php',
         'ModelMake' => __DIR__ . '/../..' . '/app/commands/model.php',
+        'ServeMake' => __DIR__ . '/../..' . '/app/commands/serve.php',
         'ViewMake' => __DIR__ . '/../..' . '/app/commands/view.php',
     );
 

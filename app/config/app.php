@@ -2,7 +2,7 @@
 
 \Core\App::setConfig([
 
-    'host' => 'http://localhost/viaticos',
+    'host' => 'http://localhost',
 
     'database' => [
       'driver'    => 'mysql',

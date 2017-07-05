@@ -8,5 +8,6 @@ $baseDir = dirname($vendorDir);
 return array(
     'ControllerMake' => $baseDir . '/app/commands/controller.php',
     'ModelMake' => $baseDir . '/app/commands/model.php',
+    'ServeMake' => $baseDir . '/app/commands/serve.php',
     'ViewMake' => $baseDir . '/app/commands/view.php',
 );
