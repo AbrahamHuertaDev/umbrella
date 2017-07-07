@@ -5,7 +5,7 @@ use  Illuminate\Database\Capsule\Manager as Capsule;
 /**
  *
  */
-class {name}
+class {name}  extends Illuminate\Database\Eloquent\Model
 {
 
 	public static function connect()
